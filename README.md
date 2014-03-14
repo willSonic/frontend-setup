@@ -1,29 +1,29 @@
-# Foundation libsass template
+# Front-end Setup
 
-This is a template to start your own project that uses Grunt and libsass!
+This is a template I use for my own projects, trying to optimize grunt, including Foundation, Animate.css and Font-awesome.
+
+
+##What's included?
+
+Beside the main features mentioned above, I try my best to optimize the performance, therefore I use:
+
+* Uglify (`npm install grunt-contrib-uglify`)
+* Concat (`npm install grunt-contrib-concat`)
+* Jshint (`npm install grunt-contrib-jshint`)
+* AutoPrefixer (`npm install grunt-autoprefixer`)
 
 ## Requirements
 
-You'll need to have the following items installed before continuing.
+* Sass (`gem install sass`)
 
-  * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
-  * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
-  * [Bower](http://bower.io): Run `[sudo] npm install -g bower`
 
-## Quickstart
+## Contributing
 
-```bash
-git clone git@github.com:zurb/foundation-libsass-template.git
-npm install && bower install
-```
+Feel free to submit bugs or pull requests, just make sure to target the develop branch and follow the same coding style.
 
-While you're working on your project, run:
+## License
 
-`grunt`
+[MIT License](http://en.wikipedia.org/wiki/MIT_License)
 
-And you're set!
 
-## Directory Strucutre
 
-  * `scss/_settings.scss`: Foundation configuration settings go in here
-  * `scss/app.scss`: Application styles go here
